@@ -1,0 +1,10 @@
+name: 'client investment form plugin'
+description: 'Client investment form Plugin is a WordPress plugin '
+
+inputs:
+    description: 'Provide user details with their investment level'
+outputs:
+       description: 'save user input to the database and give estimate base on user input about their investment'
+runs:
+  using: 'php'
+  main: 'php'
